@@ -35,7 +35,7 @@ function listarProductos() {
 
 // comprobación de carga
 do {
-    var comprobacion = prompt ("¿Quiere agregar un nuevo producto? (responder sí o no)")
+    let comprobacion = prompt ("¿Quiere agregar un nuevo producto? (responder sí o no)")
     if (comprobacion === "no" || comprobacion === "NO" || comprobacion === "No") {
         break
     } else {
